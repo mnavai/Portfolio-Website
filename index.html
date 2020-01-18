@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav role="navigation" id="slide" >
+      <img src="images/me.png" class="mypic" alt="my pic" />
+      <h3>Maryam Navai</h3> 
+      <h5>Frontend Developepr</h5>
+      <hr style="border-top:dotted 1px;" width="150"  />
+      <ul>
+        <li><a class="clickAbout" href="#">About</a></li>
+        <li><a class="clickPortfolio" href="#">Portfolio</a></li>
+        <li><a class="clickDesign" href="#">Design</a></li>
+        <li><a class="clickResume" href="#">Resume</a></li>
+      </ul>
+       <hr style="border-top:dotted 1px;" width="150"  />
+     
+      <div> 
+        <a href="https://github.com/mnavai" class="fa fa-github"></a>
+        <a href="https://www.linkedin.com/in/marynavai/" class="fa fa-linkedin"></a>
+        <a href="https://www.facebook.com/marynavai" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-inbox"></a>
+      </div>
+    </nav>
+    <div id="top">
+      <div id="mylinks">
+        <a  href="#About">About</a>
+        <a  href="#Portfolio">Portfolio</a>
+        <a  href="#Contact">Contact</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i></a>   
+    </div>  
+    <main role="main" id="wrapper">
+        <header role="banner" class="js-intro">
+            <h1>I am a passionate Frontend Developer as well as a 3D Modeler who loves learning and experimenting with new technologies.</h1>
+        </header>
+        <section class="js-intro">
+           <p> My name is Mary, migrated to US from Dubai in Dec 2011. I am currently enrolled in Full-stack Engineering program at Thinkful. I also hold two university degrees, in Computer Science and Game Design.</p>
+           <p>I love coding because my brain feeds on the challenge; I am very eager to work as a web application developer where I can fulfill both skill-sets and bring my ideas to life.</p>
+
+           <p>When I’m not coding/designing, I love to do outdoor activities with friends and family, I love camping, BBQing, Beach, new exciting adventures, reading and learning new things, planting and painting, my next challenge is to learn piano (my favorite instrument).</p>
+
+           <p>I have a small senior dog that I love to death. His name is Hazelnut!</p>
+           <button type="button"  class="myButton">Portfolio</button>
+        </section>
+        <section class="js-project hidden"></section>
+        <section class="js-resume hidden"></section>
+        <section class="js-Design hidden"></section>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+        <script src="script.js"></script> 
+    </main>
+    <footer role="content-info" id="footer">&copy; Designed and developed by Maryam Navai 2019 </footer>
+</body>
+</html>
