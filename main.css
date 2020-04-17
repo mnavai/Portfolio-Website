@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
   }
+
   .experience-text{
-    text-align:left;
+    text-align:center;
   }
+
   body {
     font-family:Arial, Helvetica, sans-serif; 
     font-size: 20px;
@@ -56,7 +58,7 @@
     background-color: rgb(132, 177, 192); 
   }
   
-  #top #mylinks {
+  #top #myLinks {
     display: none;
   }
   
@@ -70,6 +72,11 @@
     padding: 0;
     
   }
+
+  #show ul{
+    list-style-type: circle;
+  }
+
   #top a {
   
     color:rgb(83, 81, 81);
@@ -110,6 +117,8 @@
     
     width: 100%;
     padding: 10% 0;
+    margin-top : 50px;
+ 
   }
   
   h1 {
@@ -130,9 +139,14 @@
   }
   
   h4 {
-  
-    margin-left: 250px;
+    text-align: center;
+    
   }
+
+  .fa{
+    float:none;
+  }
+
   
   @media only screen and (min-width: 441px) {
     main{
@@ -154,12 +168,11 @@
     #slide ul{
       padding-left:25px;
     }
-    .fa{
-      float:none;
-    }
-    #top {
+    
+
+     #top {
       display: none;
-    }
+    } 
   
     ul#slide {
       
@@ -236,5 +249,10 @@
       font-weight: bold;
       font-size: 12px;
     }
+
+    ul#topLinks {
+      display: inline-block;
+    }
+    
   }
   
